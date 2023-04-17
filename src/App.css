@@ -1,8 +1,79 @@
 .ListItem article {
   display: flex;
+  justify-content: space-between;
+}
+
+.ListItem article button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0 0.4rem;
 }
 
 .App {
-  margin-top: 10%;
-  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 20vh;
+  height: 80vh;
+  align-items: start;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+form button {
+  background-color: transparent;
+  padding: 0;
+  margin: 1rem;
+}
+
+form button:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0.8px solid var(--red);
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  outline: 0.8px solid var(--red);
+  border: 0.8px solid var(--red);
+  transition: 0.2s ease;
+}
+
+input {
+  font-size: large;
+  width: 16rem;
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: 1.5px solid #141414;
+  font-family: "DM Sans", sans-serif;
+  background-color: #242424;
+}
+
+input:focus-visible {
+  border: 0.8px solid red;
+}
+
+li {
+  border-top: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+span {
+  font-size: 22px;
 }
