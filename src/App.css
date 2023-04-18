@@ -30,6 +30,8 @@ form button {
   background-color: transparent;
   padding: 0;
   margin: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 form button:hover {
@@ -46,8 +48,8 @@ select:focus {
 input:hover,
 textarea:hover,
 select:hover {
-  outline: 0.8px solid var(--red);
-  border: 0.8px solid var(--red);
+  outline: 0.9px solid var(--red);
+  border: 1px solid var(--red);
   transition: 0.2s ease;
 }
 
@@ -63,6 +65,7 @@ input {
 
 input:focus-visible {
   border: 0.8px solid var(--red);
+  outline: 1px solid var(--red);
 }
 
 li {

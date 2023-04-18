@@ -1,7 +1,10 @@
+import React, { useState } from "react";
+
 function Form(props) {
   function submit(e) {
     e.preventDefault();
     props.addTask(e.target.elements.task.value);
+    e.target.reset();
   }
 
   return (
