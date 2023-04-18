@@ -7,7 +7,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,7 +27,6 @@ a:hover {
 
 body {
   margin: 0;
-  background-color: #242424;
 }
 
 h1 {
@@ -52,10 +50,6 @@ button {
 button:hover {
   background-color: var(--red);
   transition: 0.2s ease;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto var(--red);
 }
 
 @media (prefers-color-scheme: light) {

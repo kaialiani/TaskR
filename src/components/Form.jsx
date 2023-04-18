@@ -3,6 +3,7 @@ function Form(props) {
     e.preventDefault();
     props.addTask(e.target.elements.task.value);
   }
+
   return (
     <form onSubmit={submit}>
       <br />

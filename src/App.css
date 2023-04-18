@@ -58,11 +58,11 @@ input {
   border-radius: 12px;
   border: 1.5px solid #141414;
   font-family: "DM Sans", sans-serif;
-  background-color: #242424;
+  background-color: transparent;
 }
 
 input:focus-visible {
-  border: 0.8px solid red;
+  border: 0.8px solid var(--red);
 }
 
 li {
