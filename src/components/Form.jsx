@@ -16,6 +16,7 @@ function Form(props) {
         type="text"
         name="task"
         id="form_task"
+        autoComplete="off"
       />
       <button>
         <svg
